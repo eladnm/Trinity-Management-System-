@@ -1,0 +1,25 @@
+doctype html(lang='en')
+head
+  meta(charset='utf-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
+  meta(http-equiv='x-ua-compatible', content='ie=edge')
+  title Bookworm | #{title}
+  link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css', integrity='sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd', crossorigin='anonymous')
+  link(href='https://fonts.googleapis.com/icon?family=Material+Icons', rel='stylesheet')
+  link(rel='stylesheet', href='/stylesheets/style.css')
+
+  body
+    // load navbar.jade
+    include navbar
+
+    // content block
+    block content
+
+    // footer
+    p.foot.text-xs-center Copyright@ 2017, Elad Nahum, All Rights Reserved
+    script(src='https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js')
+
+    script(src='https://code.jquery.com/jquery-3.1.1.slim.min.js')
+    script(src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous")
+
+    
